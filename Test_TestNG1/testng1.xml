@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<!-- TestW3School -->
+	<test thread-count="5" name="TestW3School">
+		<groups>
+			<run>
+				<include name="basic" />
+			</run>
+		</groups>
+		<classes>
+			<class name="math.W3School" />
+		</classes>
+	</test>
+	
+	<!-- TestHomePageW3School -->
+	<test thread-count="5" name="HomePage_W3School">
+		<classes>
+			<class name="math.HomePage_W3School" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74985" started-at="2021-10-12T12:10:32 ICT" finished-at="2021-10-12T12:11:47 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74985" started-at="2021-10-12T12:10:32 ICT" finished-at="2021-10-12T12:11:47 ICT">
+      <class name="EX4.Demo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:EX4.Demo@5bb21b69]" name="beforeClass" is-config="true" duration-ms="16806" started-at="2021-10-12T12:10:32 ICT" finished-at="2021-10-12T12:10:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TestLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EX4.Demo@5bb21b69]" name="TestLogin" duration-ms="11797" started-at="2021-10-12T12:10:59 ICT" data-provider="LoginData" finished-at="2021-10-12T12:11:11 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="TestLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EX4.Demo@5bb21b69]" name="TestLogin" duration-ms="12840" started-at="2021-10-12T12:11:11 ICT" data-provider="LoginData" finished-at="2021-10-12T12:11:24 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1701040099]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fit@2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="TestLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EX4.Demo@5bb21b69]" name="TestLogin" duration-ms="10420" started-at="2021-10-12T12:11:24 ICT" data-provider="LoginData" finished-at="2021-10-12T12:11:34 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1701040093]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cho Thui av6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="TestLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:EX4.Demo@5bb21b69]" name="TestLogin" duration-ms="6074" started-at="2021-10-12T12:11:34 ICT" data-provider="LoginData" finished-at="2021-10-12T12:11:40 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1701040188]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:EX4.Demo@5bb21b69]" name="afterClass" is-config="true" duration-ms="7070" started-at="2021-10-12T12:11:40 ICT" finished-at="2021-10-12T12:11:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- EX4.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

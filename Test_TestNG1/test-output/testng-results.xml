@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26674" started-at="2021-10-15T08:57:51 ICT" finished-at="2021-10-15T08:58:17 ICT">
+    <groups>
+      <group name="basic">
+        <method signature="TestFaceBookLogin.testFBLogin()[pri:0, instance:math.TestFaceBookLogin@4232c52b]" name="testFBLogin" class="math.TestFaceBookLogin"/>
+      </group> <!-- basic -->
+    </groups>
+    <test name="Default test" duration-ms="26674" started-at="2021-10-15T08:57:51 ICT" finished-at="2021-10-15T08:58:17 ICT">
+      <class name="math.TestFaceBookLogin">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:math.TestFaceBookLogin@4232c52b]" name="beforeClass" is-config="true" duration-ms="15202" started-at="2021-10-15T08:57:51 ICT" finished-at="2021-10-15T08:58:06 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testFBLogin()[pri:0, instance:math.TestFaceBookLogin@4232c52b]" name="testFBLogin" duration-ms="8202" started-at="2021-10-15T08:58:06 ICT" finished-at="2021-10-15T08:58:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFBLogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:math.TestFaceBookLogin@4232c52b]" name="afterClass" is-config="true" duration-ms="3050" started-at="2021-10-15T08:58:14 ICT" finished-at="2021-10-15T08:58:17 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- math.TestFaceBookLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

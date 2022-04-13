@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Math">
+	<!-- TestClassNewTestNG1 -->
+	<test thread-count="5" name="TestMatch">
+		<groups>
+			<run>
+				<include name="basic" />
+			</run>
+		</groups>
+		<classes>
+			<class name="math.NewTestNG1" />
+		</classes>
+	</test>
+
+
+	<!-- TestClassNewTestNG -->
+	<test thread-count="5" name="TestMatch1">
+		<groups>
+			<run>
+				<include name="basic1" />
+				<include name="basic2" />
+				<include name="advance" />
+			</run>
+		</groups>
+		<classes>
+			<class name="math.NewTestNG" />
+		</classes>
+	</test>
+</suite> <!-- Math -->
